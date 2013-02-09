@@ -1,0 +1,148 @@
+/*
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * @vendor:     
+ * @licenseurl: http://www.fontsquirrel.com/license/Delicious
+ * @licenseurl: http://www.fontsquirrel.com/license/Jura
+ *
+ *
+ */
+
+@font-face {
+	font-family: 'Delicous';
+	src: url('fonts/delicious-roman-webfont.eot');
+	src: url('fonts/delicious-roman-webfont.eot') format('embedded-opentype'),
+		 url('fonts/delicious-roman-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Delicous';
+	src: url('fonts/delicious-italic-webfont.eot');
+	src: url('fonts/delicious-italic-webfont.eot') format('embedded-opentype'),
+		 url('fonts/delicious-italic-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Delicous';
+	src: url('fonts/delicious-bold-webfont.eot');
+	src: url('fonts/delicious-bold-webfont.eot') format('embedded-opentype'),
+		 url('fonts/delicious-bold-webfont.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Delicous';
+	src: url('fonts/delicious-bolditalic-webfont.eot');
+	src: url('fonts/delicious-bolditalic-webfont.eot') format('embedded-opentype'),
+		 url('fonts/delicious-bolditalic-webfont.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Jura';
+	src: url('fonts/jura-regular-webfont.eot');
+	src: url('fonts/jura-regular-webfont.eot') format('embedded-opentype'),
+		 url('fonts/jura-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Jura';
+	src: url('fonts/jura-italic-webfont.eot');
+	src: url('fonts/jura-italic-webfont.eot') format('embedded-opentype'),
+		 url('fonts/jura-italic-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Jura';
+	src: url('fonts/jura-bold-webfont.eot');
+	src: url('fonts/jura-bold-webfont.eot') format('embedded-opentype'),
+		 url('fonts/jura-bold-webfont.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Jura';
+	src: url('fonts/jura-bolditalic-webfont.eot');
+	src: url('fonts/jura-bolditalic-webfont.eot') format('embedded-opentype'),
+		 url('fonts/jura-bolditalic-webfont.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+body {
+	color: #403440;
+	/*1c1c1c*/
+	/*font-size: 16px;*/
+	font-family: 'Jura', georgia, serif;
+	margin: 0;
+	/*font-family: 'Bitter', serif;*/
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: 'Delicious', arial, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.Content{
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+.ImageMe {
+	border-radius: 150px;
+}
+
+.AboutMe {
+	/* put some code in here to make the measure ~65 to 90 chars and line height 125-175%. Make the title line height 1.1*/
+	font-size: 24px;
+	line-height: 150%;
+}
+
+.Intro {
+	font-size: 36px;
+}
+
+/*Footer*/
+footer {
+	background-color: #403440;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+/*
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #00AFB5;
+
+}
+
+
+footer {
+  clear: both;
+}
+*/
